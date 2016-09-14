@@ -1,0 +1,13 @@
+Xft.dpi: 160
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+XTerm*locale: true
+XTerm*selectToClipboard: true
+XTerm*saveLines: 2000
+xterm*faceName: MigMix 1M
+XTerm*termName: xterm-256color

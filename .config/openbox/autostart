@@ -1,0 +1,10 @@
+feh --bg-fill ~/Pictures/bg.jpg &
+compton --no-fading-openclose &
+tint2 &
+# guake &
+tilda &
+conky &
+fcitx &
+dropbox &
+# wine "~/.wine/drive_c/Program Files/1Password 4/Agile1pAgent.exe" &
+# compton &
