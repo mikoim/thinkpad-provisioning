@@ -1,3 +1,10 @@
 [user]
 	email = ek@esh.ink
 	name = Eshin Kunishima
+	signingkey = 1CA40FB8
+[gpg]
+	program = gpg2
+[core]
+	excludesfile = /home/ek/.gitignore_global
+[push]
+	default = simple
