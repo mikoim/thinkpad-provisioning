@@ -8,3 +8,5 @@
 	excludesfile = /home/ek/.gitignore_global
 [push]
 	default = simple
+[commit]
+	gpgsign = true
