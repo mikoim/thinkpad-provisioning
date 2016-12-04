@@ -1,0 +1,51 @@
+\documentclass[uplatex,a4paper,dvipdfmx]{jsarticle}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{float} % \begin{figure}[H]
+\usepackage{booktabs} % ヘッダーと末尾の区切り線が太い表
+\usepackage{longtable} % ページを跨ぐ表
+\usepackage[font=normalsize]{caption} % キャプションのフォントサイズを上書き
+
+% 参考文献 by biblatex
+% \usepackage[style=numeric,sorting=none]{biblatex}
+% \addbibresource{main.bib}
+% 参考文献をすべて表示する場合は下のコメントを外す
+% \nocite{*}
+
+% ソースコード
+\usepackage{listings,jlisting}
+\renewcommand{\lstlistingname}{リスト}
+\lstset{
+  basicstyle=\small,
+  breakatwhitespace=true,
+  breaklines=true,
+  captionpos=b,
+  extendedchars=true,
+  frame=single,
+  keepspaces=true,
+  language=C,
+  numbers=left,
+  tabsize=2,
+  xleftmargin=4zw,
+  xrightmargin=0zw
+}
+
+\begin{document}
+
+\title{ヌコの生息域についての報告 \\ リア獣キャッキャ}
+\author{永遠のn回生 河合素数}
+\date{}
+\maketitle
+
+% 目次
+\tableofcontents
+
+\section{hanamogera}
+
+hogehoge
+
+\input{ex-longtable.tex}
+
+% \printbibliography[title=参考文献]
+
+\end{document}
