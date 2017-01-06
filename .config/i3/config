@@ -164,10 +164,6 @@ bar {
   }
 }
 
-exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-4 --primary --mode 1920x1080 --pos 0x0 --rotate normal
-exec --no-startup-id feh --bg-scale "$HOME/Pictures/Wallpapers/miko.jpg"
-exec --no-startup-id compton --opacity-rule '100:window_type = "dock" && class_g = "i3bar"'
-exec --no-startup-id dropbox start
 client.focused #00b0ef #00b0ef #141414 #ff7066
 client.focused_inactive #141414 #141414 #00b0ef #472b2a
 client.unfocused #141414 #141414 #7d7d7d #141414
@@ -176,3 +172,6 @@ client.urgent #ff7066 #ff7066 #141414 #ff7066
 bindsym $mod+t exec gnome-terminal
 bindsym $mod+g exec google-chrome
 bindsym $mod+p exec pcmanfm
+
+exec --no-startup-id "$HOME/.config/i3/autorun.sh"
+ 
