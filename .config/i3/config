@@ -36,7 +36,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -173,5 +173,7 @@ bindsym $mod+t exec terminator
 bindsym $mod+g exec google-chrome
 bindsym $mod+p exec pcmanfm
 
+bindsym $mod+d exec rofi -show run
+bindsym $mod+Shift+d exec rofi -show window
+
 exec --no-startup-id "$HOME/.config/i3/autorun.sh"
- 
