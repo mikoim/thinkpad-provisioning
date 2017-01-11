@@ -173,6 +173,7 @@ bindsym $mod+t exec terminator
 bindsym $mod+g exec google-chrome
 bindsym $mod+p exec pcmanfm
 
+# Replace dmenu by Rofi
 bindsym $mod+d exec rofi -show run
 bindsym $mod+Shift+d exec rofi -show window
 
