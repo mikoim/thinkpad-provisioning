@@ -181,4 +181,7 @@ bindsym $mod+Shift+d exec rofi -show window
 # via https://faq.i3wm.org/question/61/forcing-windows-as-always-floating.1.html
 for_window [window_role="pop-up"] floating enable
 
+# Enable floating mode with pcmanfm
+for_window [class="Pcmanfm"] floating enable
+
 exec --no-startup-id "$HOME/.config/i3/autorun.sh"
