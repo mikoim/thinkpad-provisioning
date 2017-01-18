@@ -11,6 +11,7 @@ This repository contains configuration files for my ThinkPad X1 Carbon (4th Gen,
 | Window manager | i3 | 😊 |
 |  | i3status | 😊 |
 | Window switcher | rofi | 😊 |
+| Screenshot | scrot | 😊 |
 | Terminal emulator | terminator | 😊 |
 | | | |
 | System monitor | conky | deprecated |
