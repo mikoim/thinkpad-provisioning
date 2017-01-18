@@ -9,7 +9,7 @@ This repository contains configuration files for my ThinkPad X1 Carbon (4th Gen,
 | Compositor | compton | 😊 |
 | System monitor | htop | 😊 |
 | Window manager | i3 | 😊 |
-|  | i3status | 😊 |
+| Status bar | i3status | 😊 |
 | Window switcher | rofi | 😊 |
 | Screenshot | scrot | 😊 |
 | Terminal emulator | terminator | 😊 |
