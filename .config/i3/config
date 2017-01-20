@@ -186,6 +186,9 @@ for_window [class="Pcmanfm"] floating enable
 # Enable floating mode with wine
 for_window [class="Wine"] floating enable
 
+# Enable floating mode with vlc
+for_window [class="vlc"] floating enable
+
 # Capture a screenshot of selected area or window
 bindsym --release Print exec "$HOME/.config/i3/screenshot.sh"
 
