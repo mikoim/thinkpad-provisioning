@@ -174,8 +174,7 @@ bindsym $mod+g exec google-chrome
 bindsym $mod+p exec pcmanfm
 
 # Replace dmenu by Rofi
-bindsym $mod+d exec rofi -show run
-bindsym $mod+Shift+d exec rofi -show window
+bindsym $mod+d exec rofi -font "Ricty 24" -show run
 
 # Enable floating mode with browser pop-ups
 # via https://faq.i3wm.org/question/61/forcing-windows-as-always-floating.1.html
