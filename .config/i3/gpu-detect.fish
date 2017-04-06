@@ -20,6 +20,7 @@ function is_nvidia_render
   end
 end
 
-if test (is_nvidia) -eq 1 -a (is_nvidia_render) -eq 1
+if test (is_nvidia) -eq 1 -a (is_nvidia_render) -eq 0
   notify-send -a 'gpu-detect.fish' -i dialog-warning 'OpenGL renderer mismatch!' 'You are using NVIDIA GPU, but OpenGL renderer does not use it.'
 end
+
