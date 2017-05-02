@@ -186,8 +186,14 @@ for_window [class="spacefm"] floating enable
 # Enable floating mode with wine
 for_window [class="Wine"] floating enable
 
+# Enable floating mode with 1Password
+# for_window [title="1Password"] floating enable
+
 # Enable floating mode with vlc
 for_window [class="vlc"] floating enable
+
+# Enable floating mode with Mathematica
+for_window [class="Mathematica"] floating enable
 
 # Capture a screenshot of selected area or window
 bindsym --release Shift+Print exec "$HOME/.config/i3/screenshot.sh -s"
@@ -196,3 +202,4 @@ bindsym --release Shift+Print exec "$HOME/.config/i3/screenshot.sh -s"
 bindsym --release Print exec "$HOME/.config/i3/screenshot.sh"
 
 exec --no-startup-id "$HOME/.config/i3/autorun.sh"
+
