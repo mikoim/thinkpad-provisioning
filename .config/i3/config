@@ -171,7 +171,7 @@ client.urgent #ff7066 #ff7066 #141414 #ff7066
 
 bindsym $mod+t exec terminator
 bindsym $mod+g exec google-chrome
-bindsym $mod+p exec pcmanfm
+bindsym $mod+p exec spacefm
 
 # Replace dmenu by Rofi
 bindsym $mod+d exec rofi -font "Ricty 24" -show run
@@ -181,7 +181,7 @@ bindsym $mod+d exec rofi -font "Ricty 24" -show run
 for_window [window_role="pop-up"] floating enable
 
 # Enable floating mode with pcmanfm
-for_window [class="Pcmanfm"] floating enable
+for_window [class="spacefm"] floating enable
 
 # Enable floating mode with wine
 for_window [class="Wine"] floating enable
