@@ -201,5 +201,7 @@ bindsym --release Shift+Print exec "$HOME/.config/i3/screenshot.sh -s"
 # Capture a screenshot of full screen
 bindsym --release Print exec "$HOME/.config/i3/screenshot.sh"
 
+workspace_layout tabbed
+
 exec --no-startup-id "$HOME/.config/i3/autorun.sh"
 
