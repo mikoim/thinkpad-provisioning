@@ -195,6 +195,9 @@ for_window [class="vlc"] floating enable
 # Enable floating mode with Mathematica
 for_window [class="Mathematica"] floating enable
 
+# Enable floating mode with Anki
+for_window [class="Anki"] floating enable
+
 # Capture a screenshot of selected area or window
 bindsym --release Shift+Print exec "$HOME/.config/i3/screenshot.sh -s"
 
