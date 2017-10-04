@@ -8,3 +8,9 @@ wine "$HOME/.wine/drive_c/Program Files (x86)/1Password 4/Agile1pAgent.exe" &
 /opt/dunst/bin/dunst &
 "$HOME/.config/i3/gpu-detect.fish" &
 
+case "${GTK_IM_MODULE}" in
+  "ibus")
+    ibus-daemon &;;
+  "fcitx")
+    fcitx &;;
+esac
