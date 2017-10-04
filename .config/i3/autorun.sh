@@ -6,5 +6,5 @@ compton -b --opacity-rule '100:window_type = "dock" && class_g = "i3bar"' &
 dropbox start &
 wine "$HOME/.wine/drive_c/Program Files (x86)/1Password 4/Agile1pAgent.exe" &
 /opt/dunst/bin/dunst &
-$HOME/.config/i3/gpu-detect.fish &
+"$HOME/.config/i3/gpu-detect.fish" &
 
