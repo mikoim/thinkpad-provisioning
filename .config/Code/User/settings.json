@@ -1,0 +1,17 @@
+{
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "rust.rustup": {
+        "toolchain": "nightly-x86_64-unknown-linux-gnu",
+        "nightlyToolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "rust.mode": "rls",
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "rust.rls": {
+        "useRustfmt": false
+    },
+    "editor.fontSize": 16
+}
