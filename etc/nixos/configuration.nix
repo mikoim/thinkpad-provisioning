@@ -157,12 +157,23 @@
   services.locate.enable = true; 
   services.openssh.enable = true;
   services.openssh.forwardX11 = true;
+  services.redshift = {
+    enable = true;
+    provider = "geoclue2";
+  };
   services.timesyncd.servers = [
     "ntp.nict.jp"
     "ntp1.jst.mfeed.ad.jp"
     "ntp2.jst.mfeed.ad.jp"
     "ntp3.jst.mfeed.ad.jp"
   ];
+  services.tlp = {
+    enable = true;
+    extraConfig = ''
+      START_CHARGE_THRESH_BAT0=69 
+      STOP_CHARGE_THRESH_BAT0=90
+    '';
+  };
   services.xserver.desktopManager.xterm.enable = false;
   services.xserver.dpi = 140;
   services.xserver.enable = true;
