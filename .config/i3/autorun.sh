@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ "$(hostname -s)" == "namako" ]; then
   echo "mother ship"
