@@ -174,21 +174,26 @@
       STOP_CHARGE_THRESH_BAT0=90
     '';
   };
-  services.xserver.desktopManager.xterm.enable = false;
-  services.xserver.dpi = 140;
-  services.xserver.enable = true;
-  services.xserver.layout = "jp";
-  services.xserver.libinput.enable = true;
-  services.xserver.windowManager.default = "i3";
-  services.xserver.windowManager.i3.enable = true;
-  services.xserver.displayManager.lightdm = {
+  services.xserver = {
+    desktopManager.xterm.enable = false;
+    displayManager.lightdm = {
+      background = "/home/ek/bg.png";
+      enable = true;
+      greeters.gtk.extraConfig = ''
+        xft-antialias=true
+        xft-dpi=140
+        xft-hintstyle=hintsfull
+        xft-rgba=rgb
+      '';
+    };
+    dpi = 140;
     enable = true;
-    greeters.gtk.extraConfig = ''
-      xft-antialias=true
-      xft-dpi=140
-      xft-hintstyle=hintsfull
-      xft-rgba=rgb
-    '';
+    layout = "jp";
+    libinput.enable = true;
+    windowManager = {
+      default = "i3";
+      i3.enable = true;
+    };
   };
 
   users.extraUsers.ek = {
