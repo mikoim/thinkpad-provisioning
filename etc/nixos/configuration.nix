@@ -71,6 +71,7 @@
       curl
       discord
       dmidecode
+      dunst
       elementary-icon-theme
       evince
       exa
