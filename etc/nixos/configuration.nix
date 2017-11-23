@@ -187,7 +187,6 @@
   services.xserver = {
     desktopManager.xterm.enable = false;
     displayManager.lightdm = {
-      background = "/home/ek/Pictures/bg.png";
       enable = true;
       greeters.gtk.extraConfig = ''
         xft-antialias=true
