@@ -42,6 +42,7 @@
     fontconfig = {
       allowBitmaps = true;
       hinting.enable = false;
+      ultimate.enable = true;
     };
     fonts = with pkgs; [
       fira-code
