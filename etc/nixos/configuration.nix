@@ -45,7 +45,11 @@
       ultimate.enable = true;
     };
     fonts = with pkgs; [
+      # migmix
+      # migu
+      # ricty
       fira-code
+      google-fonts
       inconsolata
       ipaexfont
       noto-fonts-cjk
