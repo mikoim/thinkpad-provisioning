@@ -166,6 +166,10 @@
     enable = true;
     provider = "geoclue2";
   };
+  services.smartd = {
+    enable = true;
+    notifications.x11.enable = true;
+  };
   services.timesyncd.servers = [
     "ntp.nict.jp"
     "ntp1.jst.mfeed.ad.jp"
