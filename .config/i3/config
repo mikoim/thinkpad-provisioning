@@ -169,9 +169,9 @@ client.focused_inactive #141414 #141414 #00b0ef #472b2a
 client.unfocused #141414 #141414 #7d7d7d #141414
 client.urgent #ff7066 #ff7066 #141414 #ff7066
 
-bindsym $mod+t exec terminator
-bindsym $mod+g exec google-chrome
-bindsym $mod+p exec spacefm
+bindsym $mod+t exec "$HOME/.config/i3/terminal.sh"
+bindsym $mod+g exec "$HOME/.config/i3/browser.sh"
+bindsym $mod+p exec "$HOME/.config/i3/fm.sh"
 
 # Replace dmenu by Rofi
 bindsym $mod+d exec rofi -font "Ricty 24" -show run
@@ -180,8 +180,9 @@ bindsym $mod+d exec rofi -font "Ricty 24" -show run
 # via https://faq.i3wm.org/question/61/forcing-windows-as-always-floating.1.html
 for_window [window_role="pop-up"] floating enable
 
-# Enable floating mode with pcmanfm
+# Enable floating mode with pcmanfm / spacefm
 for_window [class="spacefm"] floating enable
+for_window [class="pcmanfm"] floating enable
 
 # Enable floating mode with wine
 for_window [class="Wine"] floating enable
