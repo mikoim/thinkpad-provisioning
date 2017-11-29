@@ -3,7 +3,7 @@
 if [ "$(hostname -s)" == "namako" ]; then
   echo "mother ship"
   # xrandr --output HDMI-0 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-4 --primary --mode 1920x1080 --pos 0x0 --rotate normal &
-  feh --bg-max "$HOME/Pictures/bg.jpg" &
+  feh --random --bg-max ~/Pictures/* &
   compton -b --opacity-rule '100:window_type = "dock" && class_g = "i3bar"' &
   dropbox start &
   /opt/dunst/bin/dunst &
